@@ -2,10 +2,10 @@
 int main()
 {
 	int t,n,i,j;
-	scanf("%d",&t);   //no. of test cases
+	scanf("%d",&t);                               //no. of test cases
 	while(t)
 	{
-		scanf("%d",&n); //no. of rows
+		scanf("%d",&n);                       //no. of rows
 		for(i=1; i<=n; i++)
 		{
 			for(j=0; j<i; j++)            // *'s before the first # of each row
