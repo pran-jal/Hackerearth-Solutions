@@ -22,5 +22,7 @@ int main()
 		printf("%s\n","NO");
 	else
 	{	printf("%s\n","YES");
-		printf("%s\n",c);}
+		printf("%s\n",c);
+	}
+	return 0;
 }
