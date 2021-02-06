@@ -18,10 +18,11 @@ int main()
 		r=temp%3;
 		q=temp/3;
 		if(r!=2)
-		{if(q==1 || q==3)
-			r=0;
-		else 
-			r=1;
+		{
+			if(q==1 || q==3)
+				r=0;
+			else 
+				r=1;
 		}
 		if(r==0)
 			ch="AS";
