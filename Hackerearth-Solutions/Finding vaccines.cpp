@@ -9,8 +9,10 @@ int main(){
 	char pvirus[m];
 	scanf("%s",pvirus);
 	while(pvirus[i]!='\0'){
-		if(pvirus[i]=='G')			G++;
-		else if(pvirus[i]=='C')		C++;
+		if(pvirus[i]=='G')
+			G++;
+		else if(pvirus[i]=='C')
+			C++;
 		i++;
 	}
 	i=0;
@@ -21,8 +23,10 @@ int main(){
 		g_i=0;
 		c_i=0;
 		while(vvirus[i]!='\0'){
-			if(vvirus[i]=='G')			g_i++;
-			else if(vvirus[i]=='C')	c_i++;
+			if(vvirus[i]=='G')
+				g_i++;
+			else if(vvirus[i]=='C')
+				c_i++;
 			i++;
 		}
 		i=0;
