@@ -12,25 +12,25 @@ int main(){
 		if(i==0)
 			i=sum;
 		i-=a[0];
-		if(i<=0){	w=0;	}
+		if(i<=0)w=0;
 		else{
 			i-=a[1];
-			if(i<=0){	w=1;	}
+			if(i<=0)w=1;
 			else{
 				i-=a[2];
-				if(i<=0){	w=2;	}
+				if(i<=0)w=2;
 				else{
 					i-=a[3];
-					if(i<=0){	w=3;	}
+					if(i<=0)w=3;
 					else{
 						i-=a[4];
-						if(i<=0){	w=4;	}
+						if(i<=0)w=4;
 						else{
 							i-=a[5];
-							if(i<=0){	w=5;	}
+							if(i<=0)w=5;
 							else{
 							i-=a[6];
-							if(i<=0){	w=6;	}
+							if(i<=0)w=6;
 						}
 						}
 					}
@@ -39,4 +39,5 @@ int main(){
 		}
 		printf("%s\n",week[w]);
 	}
+	return 0;
 }
