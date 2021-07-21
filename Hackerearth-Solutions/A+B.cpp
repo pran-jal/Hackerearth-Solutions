@@ -3,7 +3,7 @@
 int main(){
 	char a[99], b[99],ans[100],r;
 	int carry=0, i=0,as=0,bs=0;
-	while(scanf("%s %s",a,b)>0){
+	while(scanf("Enter the Values : %s %s",a,b)>0){
 		as=strlen(a);
 		bs=strlen(b);
 		i=(as>bs)?as:bs;
